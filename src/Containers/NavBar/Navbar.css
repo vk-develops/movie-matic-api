@@ -13,7 +13,7 @@
 .navigation .nav-logo h1{
     font-size: 32px;
     font-weight: 900;
-    color: #fff;
+    color: #D88769;
 }
 .navigation .nav-elements{
     display: flex;
@@ -24,11 +24,15 @@
 .navigation .nav-elements a{
     color: #eee;
 }
+.navigation .nav-elements a:hover{
+    color: #D88769;
+}
 .navigation .nav-elements .nav-cta a{
     padding: 10px 30px;
-    border: 1px solid #eee;
+    border: 1px solid #D88769;
+    color: #D88769;
 }
 .navigation .nav-elements .nav-cta a:hover{
-    background-color: #eee;
-    color: #111;
+    background-color: #D88769;
+    color: #fff;
 }
