@@ -6,6 +6,9 @@
     border: 1px solid rgb(255, 255, 255, .2);
     border-radius: 25px;
 }
+.movie-card:hover{
+    transform: translateY(-20px);
+}
 .movie-card .movie-header{
     display: flex;
     align-items: center;
@@ -21,11 +24,22 @@
     color: rgb(255, 255, 255, .5);
     padding-top: 8px;
 }
+.movie-card .movie-header .header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.movie-card .movie-header .header-right h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, .5);
+}
 .movie-card .movie-contents{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-
+    gap: 35px;
 }
 .movie-card .movie-contents .movie-img{
     width: 300px;
@@ -35,4 +49,19 @@
 }
 .movie-card .movie-contents .movie-img:hover img{
     transform: scale(1.2);
+}
+.movie-card .movie-contents .movie-texts{
+    width: calc(100% - 300px);
+}
+.movie-card .movie-contents .movie-texts .about-texts{
+    width: 85%;
+}
+.movie-card .movie-contents .movie-texts .about-texts h3{
+    font-size: 22px;
+}
+.movie-card .movie-contents .movie-texts .about-texts p{
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, .5);
 }
